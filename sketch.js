@@ -10,6 +10,9 @@ function setup() {
 
 function draw() {
   background(220);
+  textAlign(CENTER);
+  textSize(20);
+  text("Klik med musen \n og se hvad der sker",width/2,50);
   
 for (let i = 0; i < cirkler.length; i++)  { 
   // tegner streger imellem cirklerne
